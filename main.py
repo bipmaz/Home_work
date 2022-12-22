@@ -1,5 +1,4 @@
-# -*- coding: utf8 -*-
-import Goods
+from goods_prob import*
 if __name__ == "__main__":
     good_list = GoodList()
 
@@ -17,4 +16,3 @@ if __name__ == "__main__":
 
             good_list.add_good_in_list(Good(name, price, count, production_date, expiration_day))
             good_list.get_mean_price()
-
